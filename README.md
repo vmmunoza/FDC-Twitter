@@ -8,10 +8,10 @@ It serves to illustrate successful attestation flows as well as to highlight and
 
 All example scripts were located in the `scripts/fdcExample/` directory. In this repo each has its own subfolder containing a dedicated `README.md` for detailed instructions and findings.
 
-*   **[`Fetch`](./scripts/fdcExample/Fetch-Test/README.md)**:
+*   **[`Fetch`](https://github.com/vmmunoza/FDC-Twitter/blob/main/Fetch/README.md)**:
     A direct, minimal script to test connectivity and authentication with the Twitter API. **(Works: Confirms local Twitter API access and token validity)**
 
-*   **[`Twitter-Web2Json-Test`](./scripts/fdcExample/Twitter-Web2Json-Test/README.md)**:
+*   **[`Twitter-Web2Json-Test`](https://github.com/vmmunoza/FDC-Twitter/blob/main/Test/README.md)**:
     An FDC Web2Json attestation script for the Twitter API. This script *fails* during DA layer proof retrieval. 
 
 ## Main Challenge Identified
