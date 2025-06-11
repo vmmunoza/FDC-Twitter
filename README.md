@@ -18,7 +18,7 @@ All example scripts were located in the `scripts/fdcExample/` directory. In this
 
 The primary issue discovered is with the **`Twitter-Web2Json-Test`** script, which consistently seems to fail at the DA Layer proof retrieval with the error `"attestation request not found"`.
 
-*   **Confirmed**: Tge local Twitter API access and token are valid.
+*   **Confirmed**: The local Twitter API access and token are valid.
 *   **Confirm (?)**: The attestation request format is correct and accepted by the verifier.
 *   **Cause (?)**: Ptential timing, synchronization, or indexing issue within the Flare DA Layer itself, preventing it from recognizing freshly submitted attestations in a timely manner. 
 
