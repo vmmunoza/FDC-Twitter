@@ -43,7 +43,7 @@ Preparing attestation request...
 Preparing request with params: {
 url: 'https://api.twitter.com/2/users/by/username/0xQuantic',
 headers: {
-Authorization: 'Bearer AAAAAAAAAAAAAAAAAAAAAGCU2AEAAAAA3fliCMzSh0radtt68MDQIhhKqbM%3DQ39MqHx7JdSDKMhcNNVjROTirrh8ikKcI85Q2U9WMuV2WXRHO6',
+Authorization: 'Bearer TWITTER_BEARER_TOKEN',
 'User-Agent': 'flare-web2json-demo/1.0',
 Accept: 'application/json'
 },
@@ -58,7 +58,7 @@ sourceId: '0x5075626c696357656232...',
 requestBody: {
 url: 'https://api.twitter.com/2/users/by/username/0xQuantic',
 httpMethod: 'GET',
-headers: '{"Authorization":"Bearer AAAAAAAAAAAAAAAAAAAAAGCU2AEAAAAA3fliCMzSh0radtt68MDQIhhKqbM%3DQ39MqHx7JdSDKMhcNNVjROTirrh8ikKcI85Q2U9WMuV2WXRHO6","User-Agent":"flare-web2json-demo/1.0","Accept":"application/json"}',
+headers: '{"Authorization":"Bearer TWITTER_BEARER_TOKEN","User-Agent":"flare-web2json-demo/1.0","Accept":"application/json"}',
 queryParams: '',
 body: '',
 postProcessJq: '{ id: .data.id, name: .data.name, username: .data.username }',
